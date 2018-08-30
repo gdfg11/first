@@ -1,0 +1,22 @@
+﻿{
+  "name": "first",
+  "description": "deploy first to Heroku.",
+  "keywords": ["first"],
+  "env": {
+    "VER": {
+       "description": "输入first Core 版本号（latest表示最新版本）",
+       "value": "latest"
+     }, 
+    "UUID": {
+       "description": "Vmess协议默认UUID，请输入自己的UUID",
+       "value": "6af9ea07-4d14-4c19-8ed6-f9a419943489"
+     },
+    "FIRST_RAY_BUFFER_SIZE": {
+       "description": "每个连接的缓存大小，单位MB",
+       "value": "10"
+     }
+  },
+  "website": "https://github.com/gdfg11/first",
+  "repository": "https://github.com/gdfg11/first",
+  "stack": "container"
+ }
